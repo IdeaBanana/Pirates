@@ -332,7 +332,6 @@ hp_node = NodePath("../HpNode")
 [node name="HpNode" type="Node" parent="."]
 script = ExtResource("10_xoavx")
 
-<<<<<<< HEAD:NewGameProject/Scenes/Player.tscn
 [node name="PlayerMovement" type="Node" parent="." node_paths=PackedStringArray("player")]
 script = ExtResource("1_or278")
 player = NodePath("..")
@@ -344,6 +343,3 @@ character = NodePath("..")
 [node name="Collision" type="CollisionShape2D" parent="Attack"]
 position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_tv634")
-=======
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
->>>>>>> main:NewGameProject/Scenes/Characters/Player.tscn
